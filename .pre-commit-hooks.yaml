@@ -1,0 +1,6 @@
+-   id: go-unit-tests
+    name: 'go-unit-tests'
+    entry: pre-commit-hooks/go-test.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `go test`"
